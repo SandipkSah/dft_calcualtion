@@ -1,0 +1,17 @@
+! XTB2
+
+%geom
+  Scan
+    D 2 1 3 5 = -180, 180, 10  
+    # Scan the dihedral angle from -180 to 180 degrees in steps of 10 degrees
+  end
+end
+
+* xyz 0 1
+P  0.0000  0.0000  0.0000  # Phosphorus (P)
+F  0.0000  1.5340  0.0000  # Equatorial Fluorine (F1)
+F  1.3285 -0.7670  0.0000  # Equatorial Fluorine (F2)
+F -1.3285 -0.7670  0.0000  # Equatorial Fluorine (F3)
+F  0.0000  0.0000  1.5770  # Axial Fluorine (F4)
+F  0.0000  0.0000 -1.5770  # Axial Fluorine (F5)
+*
