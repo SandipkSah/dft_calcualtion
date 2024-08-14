@@ -1,0 +1,11 @@
+PF5_ts_scan.gbw 
+0 
+0 
+0 
+$modify_redundants
+ 1 6
+      1      1      0     -1     -1      1
+
+$autoAddFragBonds
+ 10
+   5.00000000

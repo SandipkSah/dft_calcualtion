@@ -1,0 +1,10 @@
+! PBE def2-TZVP Freq
+
+* xyz 0 1
+P  0.0000  0.0000  0.0000  # Phosphorus (P)
+F  0.0000  1.5340  0.0000  # Equatorial Fluorine (F1) 
+F  1.4817 -0.4026  0.0000  # Equatorial Fluorine (F2)
+F -1.4817 -0.4026  0.0000  # Equatorial Fluorine (F3)
+F  0.0000 -0.4026  1.5232  # Axial Fluorine (F4)
+F  0.0000 -0.4026 -1.5232  # Axial Fluorine (F5)
+*
