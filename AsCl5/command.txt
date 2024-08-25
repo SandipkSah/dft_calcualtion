@@ -1,0 +1,6 @@
+orca orca PF5_opt.inp > PF5_opt.out
+orca PF5_pesscan.inp > PF5_pesscan.out
+orca PF5_ts guess.inp > PF5_ts guess.out
+orca PF5_ts opt.inp > PF5_ts opt.out
+orca PF5_min_sp.inp > PF5_min_sp.out
+orca PF5_ts_sp.inp > PF5_ts_sp.out

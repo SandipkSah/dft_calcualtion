@@ -1,0 +1,47 @@
+
+P  0.0000  0.0000  0.0000  # Phosphorus (P)
+F  0.0000  1.5340  0.0000  # Equatorial Fluorine (F1)
+F  1.3285 -0.7670  0.0000  # Equatorial Fluorine (F2)
+F -1.3285 -0.7670  0.0000  # Equatorial Fluorine (F3)
+F  0.0000  0.0000  1.5770  # Axial Fluorine (F4)
+F  0.0000  0.0000 -1.5770  # Axial Fluorine (F5)
+
+
+here I am using some information from here
+
+without changing the bond length
+P  0.0000  0.0000  0.0000  # Phosphorus (P)
+F  0.0000  1.5340  0.0000  # Equatorial Fluorine (F1) 
+F  1.4817 -0.3970  0.0000  # Equatorial Fluorine (F2)
+F -1.4817 -0.3970  0.0000  # Equatorial Fluorine (F3)
+F  0.0000 -0.4081  1.5232  # Axial Fluorine (F4)
+F  0.0000 -0.4081 -1.5232  # Axial Fluorine (F5)
+
+After the bond length changes to an average of 
+equatorial and axial F i.e ave(1.5340, 1.5770)=1.5555
+here we are not changing the bond length of F1
+P  0.0000  0.0000  0.0000  # Phosphorus (P)
+F  0.0000  1.5340  0.0000  # Equatorial Fluorine (F1) 
+F  1.4817 -0.4026  0.0000  # Equatorial Fluorine (F2)
+F -1.4817 -0.4026  0.0000  # Equatorial Fluorine (F3)
+F  0.0000 -0.4026  1.5232  # Axial Fluorine (F4)
+F  0.0000 -0.4026 -1.5232  # Axial Fluorine (F5)
+
+
+Barrier Height Calculation in kJ/mol
+
+Step 1: Identify the Given Energies
+- Transition State Energy (E_TS): -840.354684668211 Hartrees
+- Minimum Optimum State Energy (E_min): -840.349227982580 Hartrees
+
+Step 2: Calculate the Energy Difference in Hartrees
+ΔE (Hartrees) = E_TS - E_min
+ΔE = -840.354684668211 - (-840.349227982580) = -0.005456685631 Hartrees
+
+Step 3: Convert Energy Difference to kJ/mol
+- Conversion Factor: 1 Hartree = 2625.5 kJ/mol
+ΔE (kJ/mol) = ΔE (Hartrees) × 2625.5 kJ/mol
+ΔE (kJ/mol) = -0.005456685631 × 2625.5 = -14.314 kJ/mol
+
+Step 4: Take the Absolute Value for Barrier Height
+Barrier Height = |ΔE (kJ/mol)| = 14.314 kJ/mol

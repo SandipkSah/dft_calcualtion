@@ -1,0 +1,10 @@
+! PBE def2-TZVP Freq
+
+* xyz 0 1
+Sb  0.0000  0.0000  0.0000  # Antimony (Sb)
+Cl  0.0000  2.2770  0.0000  # Equatorial Chlorine (Cl1) 
+Cl  2.2289 -0.5972  0.0000  # Equatorial Chlorine (Cl2)
+Cl -2.2289 -0.5972  0.0000  # Equatorial Chlorine (Cl3)
+Cl  0.0000 -0.5972  2.2289  # Axial Chlorine (Cl4)
+Cl  0.0000 -0.5972 -2.2289  # Axial Chlorine (Cl5)
+*

@@ -1,0 +1,7 @@
+cp -r PF5 BrF5
+cp -r PF5 ClF5
+cp -r PF5 IF5
+cp -r PF5 SbF5
+
+PCl5
+PBr5

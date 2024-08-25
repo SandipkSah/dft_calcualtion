@@ -1,0 +1,10 @@
+! PBE def2-TZVP Freq
+
+* xyz 0 1
+As  0.0000  0.0000  0.0000  # Arsenic (P)
+Cl  0.0000  2.1060  0.0000  # Equatorial Chlorine (Cl1)
+Cl  2.0830 -0.5581  0.0000  # Equatorial Chlorine (Cl2)
+Cl -2.0830 -0.5581  0.0000  # Equatorial Chlorine (Cl3)
+Cl  0.0000  0.5581  2.0830  # Axial Chlorine (Cl4)
+Cl  0.0000  0.5581 -2.0830  # Axial Chlorine (Cl5)
+*

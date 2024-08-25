@@ -1,0 +1,10 @@
+! PBE def2-TZVP Freq
+
+* xyz 0 1
+P  0.0000  0.0000  0.0000  # Phosphorus (P)
+Cl  0.0000  2.0200  0.0000  # Equatorial Chlorine (Cl1) 
+Cl  2.0091 -0.4026  0.0000  # Equatorial Chlorine (Cl2)
+Cl -2.0091 -0.4026  0.0000  # Equatorial Chlorine (Cl3)
+Cl  0.0000 -0.4026  2.0091  # Axial Chlorine (Cl4)
+Cl  0.0000 -0.4026 -2.0091  # Axial Chlorine (Cl5)
+*

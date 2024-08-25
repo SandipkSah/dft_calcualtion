@@ -1,0 +1,10 @@
+! PBE def2-TZVP Freq
+
+* xyz 0 1
+As  0.0000  0.0000  0.0000  # Arsenic (As)
+F  0.0000  1.7190  0.0000  # Equatorial Fluorine (F1)
+F  1.6357 -0.4384  0.0000  # Equatorial Fluorine (F2)
+F -1.6357 -0.4384  0.0000  # Equatorial Fluorine (F3)
+F  0.0000  0.4384  1.6357  # Axial Fluorine (F4)
+F  0.0000  0.4384 -1.6357  # Axial Fluorine (F5)
+*
