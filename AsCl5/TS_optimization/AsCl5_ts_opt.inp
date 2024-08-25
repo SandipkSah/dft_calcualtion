@@ -6,7 +6,7 @@
 
 %geom
   inhess read
-  inhessname "PF5_ts_guess.hess"
+  inhessname "AsCl5_ts_guess.hess"
 end
 
 * xyz 0 1

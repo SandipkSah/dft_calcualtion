@@ -1,10 +1,10 @@
 ! PBE def2-TZVP Opt
 
 * xyz 0 1
-P  0.0000  0.0000  0.0000  # Phosphorus (P)
-F  0.0000  1.5340  0.0000  # Equatorial Fluorine (F1)
-F  1.3285 -0.7670  0.0000  # Equatorial Fluorine (F2)
-F -1.3285 -0.7670  0.0000  # Equatorial Fluorine (F3)
-F  0.0000  0.0000  1.5770  # Axial Fluorine (F4)
-F  0.0000  0.0000 -1.5770  # Axial Fluorine (F5)
+Sb  0.0000  0.0000  0.0000  # Antimony (Sb)
+Cl  0.0000  2.2770  0.0000  # Equatorial Chlorine (Cl1) 
+Cl  1.9719 -1.1385  0.0000  # Equatorial Chlorine (Cl2)
+Cl -1.9719 -1.1385  0.0000  # Equatorial Chlorine (Cl3)
+Cl  0.0000  0.0000  2.3380  # Axial Chlorine (Cl4)
+Cl  0.0000  0.0000 -2.3380  # Axial Chlorine (Cl5)
 *

@@ -6,14 +6,14 @@
 
 %geom
   inhess read
-  inhessname "PF5_ts_guess.hess"
+  inhessname "PCl5_ts_guess.hess"
 end
 
 * xyz 0 1
 P  0.0000  0.0000  0.0000  # Phosphorus (P)
-F  0.0000  1.5340  0.0000  # Equatorial Fluorine (F1) 
-F  1.4817 -0.4026  0.0000  # Equatorial Fluorine (F2)
-F -1.4817 -0.4026  0.0000  # Equatorial Fluorine (F3)
-F  0.0000 -0.4026  1.5232  # Axial Fluorine (F4)
-F  0.0000 -0.4026 -1.5232  # Axial Fluorine (F5)
+Cl  0.0000  2.0200  0.0000  # Equatorial Chlorine (Cl1) 
+Cl  2.0091 -0.4026  0.0000  # Equatorial Chlorine (Cl2)
+Cl -2.0091 -0.4026  0.0000  # Equatorial Chlorine (Cl3)
+Cl  0.0000 -0.4026  2.0091  # Axial Chlorine (Cl4)
+Cl  0.0000 -0.4026 -2.0091  # Axial Chlorine (Cl5)
 *

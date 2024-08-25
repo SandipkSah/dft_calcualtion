@@ -1,0 +1,107 @@
+-------------------------------------------------------------
+----------------------- !PROPERTIES! ------------------------
+-------------------------------------------------------------
+# -----------------------------------------------------------
+$ SCF_Energy
+   description: The SCF energy
+   geom. index: 1
+   prop. index: 1
+        SCF Energy:    -2540.5079272350
+# -----------------------------------------------------------
+$ DFT_Energy
+   description: The DFT energy
+   geom. index: 1
+   prop. index: 1
+   Number of Alpha Electrons                 53.9999739977 
+   Number of Beta  Electrons                 53.9999739977 
+   Total number of  Electrons               107.9999479955 
+   Exchange energy                         -155.4090630604 
+   Correlation energy                        -4.3898598217 
+   Correlation energy NL                      0.0000000000 
+   Exchange-Correlation energy             -159.7989228821 
+   Embedding correction                       0.0000000000 
+   Total DFT Energy (No VdW correction)   -2540.5079272350 
+# -----------------------------------------------------------
+$ Mayer_Pop
+   description: The Mayer population analysis
+   geom. index: 1
+   prop. index: 1
+     Number of atoms                     : 6
+     Threshold for printing              : 0.1000000
+     Number of bond orders printed       : 5
+  NA   - Mulliken gross atomic population
+  ZA   - Total nuclear charge
+  QA   - Mulliken gross atomic charge
+  VA   - Mayer's total valence
+  BVA  - Mayer's bonded valence
+  FA   - Mayer's free valence
+  ATOM       NA         ZA         QA         VA         BVA        FA
+  0   0    22.0045    23.0000     0.9955     4.9528     4.9528    -0.0000
+  1   0    17.1908    17.0000    -0.1908     1.2317     1.2317    -0.0000
+  2   0    17.2012    17.0000    -0.2012     1.2058     1.2058     0.0000
+  3   0    17.2012    17.0000    -0.2012     1.2058     1.2058     0.0000
+  4   0    17.2012    17.0000    -0.2012     1.2058     1.2058    -0.0000
+  5   0    17.2012    17.0000    -0.2012     1.2058     1.2058    -0.0000
+      Bond orders larger than 0.1000000
+           Atom A     A.N. of A          Atom B    A.N. of B              Bond order
+                0            51               1           17                1.037995
+                0            51               2           17                0.978692
+                0            51               3           17                0.978692
+                0            51               4           17                0.978692
+                0            51               5           17                0.978692
+# -----------------------------------------------------------
+$ Calculation_Info
+   description: Details of the calculation
+   geom. index: 1
+   prop. index: 1
+     Multiplicity:                          1
+     Charge:                                0
+     number of atoms:                       6
+     number of electrons:                   0
+     number of frozen core electrons:       1
+     number of correlated electrons:        0
+     number of basis functions:             235
+     number of aux C basis functions:       0
+     number of aux J basis functions:       313
+     number of aux JK basis functions:      0
+     number of aux CABS basis functions:    0
+     Total Energy                           -2540.507927
+# -----------------------------------------------------------
+$ SCF_Electric_Properties
+   description: The SCF Calculated Electric Properties
+   geom. index: 1
+   prop. index: 1
+       Filename                          : SbCl5_ts_sp.scfp 
+       Do Dipole Moment Calculation      : true 
+       Do Quadrupole Moment Calculation  : false 
+       Do Polarizability Calculation     : false 
+** Dipole moment part of electric properties **
+        Magnitude of dipole moment (Debye) :        0.1627947705
+        Electronic Contribution:
+                  0    
+      0      -0.000000
+      1      -2.509651
+      2       0.000000
+        Nuclear Contribution:
+                  0    
+      0       0.000000
+      1       2.573698
+      2       0.000000
+        Total Dipole moment:
+                  0    
+      0      -0.000000
+      1       0.064047
+      2       0.000000
+# -------------------------------------------------------------
+----------------------- !GEOMETRIES! ------------------------
+# -------------------------------------------------------------
+------------------------ !GEOMETRY! -------------------------
+    Number of atoms:    6 
+    Geometry Index:     1 
+    Coordinates:
+               0 Sb     0.000000000000   -0.072745000000    0.000000000000
+               1 Cl    -0.000000000000    2.239955000000   -0.000000000000
+               2 Cl     2.311771000000   -0.569753000000    0.000000000000
+               3 Cl    -2.311771000000   -0.569753000000    0.000000000000
+               4 Cl     0.000000000000   -0.569753000000    2.311771000000
+               5 Cl     0.000000000000   -0.569753000000   -2.311771000000
