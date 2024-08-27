@@ -27,7 +27,7 @@ F -1.4817 -0.4026  0.0000  # Equatorial Fluorine (F3)
 F  0.0000 -0.4026  1.5232  # Axial Fluorine (F4)
 F  0.0000 -0.4026 -1.5232  # Axial Fluorine (F5)
 
-
+PF5
 Barrier Height Calculation in kJ/mol
 
 Step 1: Identify the Given Energies
@@ -45,3 +45,63 @@ Step 3: Convert Energy Difference to kJ/mol
 
 Step 4: Take the Absolute Value for Barrier Height
 Barrier Height = |ΔE (kJ/mol)| = 14.314 kJ/mol
+
+
+AsCl5
+Step 1: Identify the Given Energies
+Transition State Energy (E_TS): -4535.752260150213 Hartrees
+Minimum Optimum State Energy (E_min): -4535.752259974210 Hartrees
+Step 2: Calculate the Energy Difference in Hartrees ΔE (Hartrees) = E_TS - E_min
+ΔE = -4535.752260150213 - (-4535.752259974210) = -0.000000176003 Hartrees
+
+Step 3: Convert Energy Difference to kJ/mol
+
+Conversion Factor: 1 Hartree = 2625.5 kJ/mol
+ΔE (kJ/mol) = ΔE (Hartrees) × 2625.5 kJ/mol
+ΔE (kJ/mol) = -0.000000176003 × 2625.5 = -0.000462 kJ/mol
+Step 4: Take the Absolute Value for Barrier Height Barrier Height = |ΔE (kJ/mol)| = 0.000462 kJ/mol
+
+AsF5
+Step 1: Identify the Given Energies
+
+Transition State Energy (E_TS): -2734.599257748637 Hartrees
+Minimum Optimum State Energy (E_min): -2734.599257942682 Hartrees
+Step 2: Calculate the Energy Difference in Hartrees ΔE (Hartrees) = E_TS - E_min
+ΔE = -2734.599257748637 - (-2734.599257942682) = 0.000000194045 Hartrees
+
+Step 3: Convert Energy Difference to kJ/mol
+
+Conversion Factor: 1 Hartree = 2625.5 kJ/mol
+ΔE (kJ/mol) = ΔE (Hartrees) × 2625.5 kJ/mol
+ΔE (kJ/mol) = 0.000000194045 × 2625.5 = 0.000509 kJ/mol
+Step 4: Take the Absolute Value for Barrier Height Barrier Height = |ΔE (kJ/mol)| = 0.000509 kJ/mol
+
+PCl5
+Step 1: Identify the Given Energies
+
+Transition State Energy (E_TS): -2641.417596303734 Hartrees
+Minimum Optimum State Energy (E_min): -2641.422787461331 Hartrees
+Step 2: Calculate the Energy Difference in Hartrees ΔE (Hartrees) = E_TS - E_min
+ΔE = -2641.417596303734 - (-2641.422787461331) = 0.005191157597 Hartrees
+
+Step 3: Convert Energy Difference to kJ/mol
+
+Conversion Factor: 1 Hartree = 2625.5 kJ/mol
+ΔE (kJ/mol) = ΔE (Hartrees) × 2625.5 kJ/mol
+ΔE (kJ/mol) = 0.005191157597 × 2625.5 = 13.629 kJ/mol
+Step 4: Take the Absolute Value for Barrier Height Barrier Height = |ΔE (kJ/mol)| = 13.629 kJ/mol
+
+SbCl5
+Step 1: Identify the Given Energies
+
+Transition State Energy (E_TS): -2540.507927235009 Hartrees
+Minimum Optimum State Energy (E_min): -2540.510700318791 Hartrees
+Step 2: Calculate the Energy Difference in Hartrees ΔE (Hartrees) = E_TS - E_min
+ΔE = -2540.507927235009 - (-2540.510700318791) = 0.002773083782 Hartrees
+
+Step 3: Convert Energy Difference to kJ/mol
+
+Conversion Factor: 1 Hartree = 2625.5 kJ/mol
+ΔE (kJ/mol) = ΔE (Hartrees) × 2625.5 kJ/mol
+ΔE (kJ/mol) = 0.002773083782 × 2625.5 = 7.281 kJ/mol
+Step 4: Take the Absolute Value for Barrier Height Barrier Height = |ΔE (kJ/mol)| = 7.281 kJ/mol
